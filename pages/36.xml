@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="36-bet, kalimalar" pname="36.jpg">
+  <sound name="047. kalimalar 01.mp3">
+    <position num="0" from="0" to="3018" x="229" y="78" width="134" height="43"/>
+    <position num="1" from="3031" to="6862" x="424" y="130" width="104" height="47"/>
+    <position num="2" from="8107" to="17162" x="88" y="127" width="303" height="45" repeat="true" replay="true"/>
+    <position num="3" from="17644" to="20151" x="361" y="182" width="164" height="39"/>
+    <position num="4" from="21017" to="26938" x="68" y="180" width="265" height="39"/>
+    <position num="5" from="26944" to="33886" x="92" y="222" width="435" height="42" repeat="true" replay="true"/>
+  </sound>
+  <sound name="048. kalimalar 02.mp3">
+    <position num="6" from="0" to="2716" x="239" y="265" width="142" height="42"/>
+    <position num="7" from="2718" to="12563" x="90" y="313" width="437" height="44"/>
+    <position num="8" from="12578" to="12879" x="70" y="359" width="1" height="2"/>
+    <position num="9" from="12873" to="19653" x="175" y="363" width="354" height="44"/>
+    <position num="10" from="19654" to="21650" x="71" y="363" width="83" height="44"/>
+    <position num="11" from="21652" to="23881" x="446" y="416" width="81" height="44"/>
+    <position num="12" from="23880" to="31983" x="89" y="420" width="334" height="47" repeat="true" replay="true"/>
+  </sound>
+  <sound name="049. kalimalar 03.mp3">
+    <position num="13" from="0" to="3599" x="231" y="471" width="143" height="41"/>
+    <position num="14" from="5652" to="16820" x="85" y="518" width="442" height="44"/>
+    <position num="15" from="16813" to="22478" x="327" y="564" width="203" height="48"/>
+    <position num="16" from="22465" to="28839" x="85" y="565" width="223" height="44" repeat="true" replay="true"/>
+  </sound>
+  <sound name="050. kalimalar 04.mp3">
+    <position num="17" from="500" to="2500" x="240" y="620" width="140" height="45"/>
+    <position num="18" from="3006" to="7371" x="388" y="666" width="140" height="45"/>
+    <position num="19" from="7360" to="11075" x="233" y="669" width="140" height="41"/>
+    <position num="20" from="11084" to="14172" x="74" y="665" width="136" height="45"/>
+    <position num="21" from="14181" to="23445" x="116" y="715" width="412" height="48"/>
+    <position num="22" from="23426" to="24563" x="70" y="714" width="40" height="50" repeat="true" next="37"/>
+  </sound>
+</page>

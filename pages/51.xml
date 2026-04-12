@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="" pname="51.jpg">
+  <sound name="Salavot.mp3">
+    <position num="0" from="600" to="2400" x="256" y="65" width="90" height="58" repeat="true"/>
+    <position num="1" from="5124" to="15038" x="153" y="143" width="380" height="58" repeat="true"/>
+    <position num="2" from="16555" to="17251" x="87" y="145" width="40" height="43"/>
+    <position num="3" from="17278" to="26983" x="168" y="216" width="363" height="56" repeat="true"/>
+    <position num="4" from="28184" to="30018" x="115" y="216" width="40" height="48"/>
+    <position num="5" from="30023" to="33413" x="420" y="284" width="110" height="48" repeat="true"/>
+    <position num="6" from="35214" to="45732" x="150" y="362" width="380" height="49" repeat="true"/>
+    <position num="7" from="47368" to="48320" x="87" y="362" width="39" height="45"/>
+    <position num="8" from="48500" to="58458" x="171" y="434" width="355" height="55" repeat="true"/>
+    <position num="9" from="59785" to="61387" x="113" y="432" width="39" height="47"/>
+    <position num="10" from="61400" to="64751" x="413" y="503" width="116" height="46" repeat="true" replay="true"/>
+  </sound>
+  <sound name="Duo.mp3">
+    <position num="11" from="200" to="1500" x="270" y="570" width="70" height="51"/>
+    <position num="12" from="4600" to="15700" x="57" y="646" width="481" height="51"/>
+    <position num="13" from="15900" to="17073" x="505" y="710" width="43" height="48" repeat="true"/>
+    <position num="14" from="19086" to="25448" x="266" y="711" width="216" height="49" repeat="true"/>
+    <position num="15" from="26656" to="32400" x="52" y="706" width="208" height="54" repeat="true" replay="true"/>
+  </sound>
+</page>

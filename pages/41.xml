@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="41-bet, Sharh, Tiyn suralari" pname="41.jpg">
+  <sound name="058. Zuho.mp3">
+    <position num="0" from="85202" to="92585" x="227" y="77" width="195" height="58" repeat="true" replay="true" back="40"/>
+  </sound>
+  <sound name="059. Sharh.mp3">
+    <position num="1" from="0" to="6710" x="151" y="143" width="147" height="43" repeat="true"/>
+    <position num="2" from="8488" to="13875" x="358" y="193" width="170" height="42" repeat="true"/>
+    <position num="3" from="13879" to="20519" x="119" y="194" width="187" height="44" repeat="true"/>
+    <position num="4" from="20509" to="28682" x="386" y="248" width="142" height="37" repeat="true"/>
+    <position num="5" from="28688" to="34934" x="220" y="245" width="121" height="41" repeat="true"/>
+    <position num="6" from="34946" to="40193" x="70" y="246" width="102" height="42"/>
+    <position num="7" from="40213" to="42047" x="493" y="298" width="34" height="38" repeat="true"/>
+    <position num="8" from="42072" to="48782" x="307" y="296" width="134" height="43" repeat="true"/>
+    <position num="9" from="50003" to="55715" x="115" y="296" width="138" height="39" repeat="true"/>
+    <position num="10" from="55704" to="61508" x="240" y="344" width="137" height="44" repeat="true" replay="true"/>
+  </sound>
+  <sound name="060. Tiyn.mp3">
+    <position num="11" from="0" to="6548" x="152" y="395" width="144" height="44" repeat="true"/>
+    <position num="12" from="6557" to="13499" x="413" y="448" width="116" height="44" repeat="true"/>
+    <position num="13" from="13519" to="18511" x="272" y="446" width="86" height="47" repeat="true"/>
+    <position num="14" from="18538" to="24714" x="71" y="448" width="149" height="44" repeat="true"/>
+    <position num="15" from="24690" to="36578" x="207" y="503" width="275" height="40" repeat="true"/>
+    <position num="16" from="36590" to="41233" x="70" y="500" width="83" height="40"/>
+    <position num="17" from="41205" to="45198" x="426" y="558" width="102" height="39" repeat="true"/>
+    <position num="18" from="47033" to="56111" x="74" y="553" width="298" height="40"/>
+    <position num="19" from="56100" to="60790" x="422" y="607" width="107" height="43" repeat="true"/>
+    <position num="20" from="62415" to="70240" x="192" y="607" width="187" height="40" repeat="true"/>
+    <position num="21" from="71320" to="74547" x="71" y="604" width="78" height="42"/>
+    <position num="22" from="74558" to="79945" x="259" y="660" width="122" height="43" repeat="true" replay="true"/>
+    <position num="23" from="0" to="6524" x="151" y="713" width="146" height="39" repeat="true"/>
+  </sound>
+</page>

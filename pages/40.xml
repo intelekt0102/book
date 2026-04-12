@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="40-bet, Layl, Zuho suralari" pname="40.jpg">
+  <sound name="057. Layl.mp3">
+    <position num="0" from="60696" to="64805" x="383" y="81" width="146" height="50" repeat="true"/>
+    <position num="1" from="64835" to="70477" x="208" y="83" width="123" height="51" repeat="true"/>
+    <position num="2" from="71387" to="74916" x="71" y="84" width="83" height="45"/>
+    <position num="3" from="74836" to="77413" x="462" y="139" width="64" height="44" repeat="true"/>
+    <position num="4" from="78457" to="87884" x="189" y="137" width="215" height="46" repeat="true"/>
+    <position num="5" from="89665" to="93078" x="68" y="140" width="71" height="40"/>
+    <position num="6" from="93114" to="95180" x="469" y="192" width="57" height="42" repeat="true"/>
+    <position num="7" from="96390" to="103890" x="236" y="189" width="178" height="50" repeat="true"/>
+    <position num="8" from="105529" to="110707" x="72" y="191" width="107" height="46"/>
+    <position num="9" from="110702" to="112698" x="477" y="243" width="49" height="49" repeat="true"/>
+    <position num="10" from="114151" to="121860" x="234" y="245" width="183" height="47" repeat="true"/>
+    <position num="11" from="123807" to="126221" x="71" y="241" width="100" height="47"/>
+    <position num="12" from="126221" to="128891" x="476" y="297" width="49" height="46" repeat="true"/>
+    <position num="13" from="129153" to="135584" x="262" y="297" width="161" height="45" repeat="true"/>
+    <position num="14" from="136395" to="141689" x="74" y="295" width="140" height="46"/>
+    <position num="15" from="141740" to="144061" x="475" y="348" width="52" height="50" repeat="true"/>
+    <position num="16" from="145879" to="156885" x="147" y="348" width="267" height="51" repeat="true"/>
+    <position num="17" from="157949" to="159597" x="71" y="348" width="28" height="50"/>
+    <position num="18" from="159674" to="166616" x="314" y="406" width="170" height="46" repeat="true"/>
+    <position num="19" from="166571" to="171934" x="152" y="405" width="103" height="46" repeat="true" replay="true" back="39"/>
+  </sound>
+  <sound name="058. Zuho.mp3">
+    <position num="20" from="1020" to="6383" x="147" y="458" width="146" height="41" repeat="true"/>
+    <position num="21" from="7517" to="10674" x="455" y="512" width="72" height="43" repeat="true"/>
+    <position num="22" from="11508" to="15989" x="268" y="508" width="128" height="50" repeat="true"/>
+    <position num="23" from="15963" to="20421" x="70" y="506" width="148" height="45"/>
+    <position num="24" from="20418" to="21927" x="498" y="563" width="33" height="49" repeat="true"/>
+    <position num="25" from="23203" to="31051" x="197" y="562" width="258" height="50" repeat="true"/>
+    <position num="26" from="32206" to="35224" x="73" y="567" width="78" height="43"/>
+    <position num="27" from="35268" to="39749" x="338" y="621" width="189" height="45" repeat="true"/>
+    <position num="28" from="41394" to="48034" x="75" y="619" width="215" height="47" repeat="true"/>
+    <position num="29" from="50397" to="58593" x="296" y="674" width="190" height="46" repeat="true"/>
+    <position num="30" from="59678" to="67363" x="74" y="676" width="177" height="43" repeat="true"/>
+    <position num="31" from="68960" to="75577" x="318" y="733" width="170" height="42" repeat="true"/>
+    <position num="32" from="76477" to="84464" x="112" y="733" width="167" height="43" repeat="true" next="41"/>
+  </sound>
+</page>

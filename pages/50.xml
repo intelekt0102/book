@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="" pname="50.jpg">
+  <sound name="Sano.mp3">
+    <position num="0" from="217" to="1865" x="270" y="100" width="57" height="42"/>
+    <position num="1" from="3463" to="13285" x="88" y="194" width="428" height="49"/>
+    <position num="2" from="13400" to="18490" x="335" y="258" width="182" height="44" repeat="true" replay="true"/>
+  </sound>
+  <sound name="Tashahhud.mp3">
+    <position num="4" from="0" to="8103" x="215" y="484" width="310" height="49" repeat="true"/>
+    <position num="5" from="10457" to="13011" x="75" y="489" width="118" height="44"/>
+    <position num="6" from="13000" to="20464" x="258" y="559" width="265" height="46" repeat="true"/>
+    <position num="7" from="22300" to="26293" x="76" y="558" width="163" height="47"/>
+    <position num="8" from="26400" to="31535" x="368" y="629" width="158" height="40" repeat="true"/>
+    <position num="9" from="33617" to="41117" x="77" y="627" width="271" height="44"/>
+    <position num="10" from="41200" to="46900" x="333" y="700" width="191" height="44" repeat="true" replay="true"/>
+  </sound>
+</page>

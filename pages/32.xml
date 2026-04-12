@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="32-bet, Alif va lom, Vasl" pname="32.jpg">
+  <sound name="038. yozilsa-o'qilmaydi.mp3">
+    <position num="0" from="215734" to="223466" x="83" y="66" width="416" height="27"/>
+    <position num="1" from="223349" to="229688" x="159" y="95" width="354" height="23" repeat="true"/>
+    <position num="2" from="229694" to="233339" x="430" y="119" width="98" height="40"/>
+    <position num="3" from="233183" to="237269" x="307" y="119" width="109" height="39"/>
+    <position num="4" from="237308" to="240419" x="183" y="120" width="112" height="37"/>
+    <position num="5" from="240480" to="244288" x="70" y="121" width="95" height="39" repeat="true"/>
+    <position num="6" from="244288" to="248374" x="410" y="167" width="117" height="42"/>
+    <position num="7" from="248412" to="253427" x="235" y="166" width="136" height="42"/>
+    <position num="8" from="253488" to="257412" x="70" y="165" width="127" height="42" repeat="true"/>
+    <position num="9" from="258247" to="260824" x="412" y="217" width="116" height="44"/>
+    <position num="10" from="261737" to="265684" x="231" y="214" width="149" height="44"/>
+    <position num="11" from="265544" to="272092" x="70" y="213" width="132" height="44" repeat="true"/>
+    <position num="12" from="272206" to="276130" x="429" y="268" width="101" height="40"/>
+    <position num="13" from="276013" to="279937" x="306" y="262" width="113" height="47"/>
+    <position num="14" from="279820" to="282931" x="199" y="266" width="97" height="45"/>
+    <position num="15" from="282993" to="286638" x="70" y="261" width="117" height="47" repeat="true"/>
+    <position num="16" from="286483" to="290801" x="419" y="316" width="110" height="41"/>
+    <position num="17" from="290924" to="293919" x="319" y="318" width="88" height="43"/>
+    <position num="18" from="293780" to="298331" x="203" y="316" width="103" height="44"/>
+    <position num="19" from="298221" to="302447" x="67" y="313" width="123" height="45" repeat="true"/>
+    <position num="20" from="302346" to="307268" x="381" y="364" width="145" height="45"/>
+    <position num="21" from="307422" to="311810" x="251" y="364" width="116" height="43"/>
+    <position num="22" from="311863" to="317133" x="64" y="362" width="174" height="45" repeat="true" replay="true"/>
+  </sound>
+  <sound name="040. vasl.mp3">
+    <position num="23" from="0" to="2554" x="241" y="417" width="117" height="27"/>
+    <position num="24" from="2581" to="11218" x="68" y="442" width="453" height="26"/>
+    <position num="25" from="11249" to="18958" x="67" y="472" width="467" height="19"/>
+    <position num="26" from="18995" to="26936" x="68" y="493" width="466" height="20"/>
+    <position num="27" from="26925" to="34471" x="68" y="515" width="465" height="23"/>
+    <position num="28" from="34487" to="41360" x="69" y="539" width="465" height="28" repeat="true"/>
+    <position num="29" from="42417" to="48129" x="280" y="572" width="252" height="42"/>
+    <position num="30" from="48134" to="54333" x="74" y="570" width="179" height="44" repeat="true"/>
+    <position num="31" from="54313" to="60489" x="366" y="621" width="166" height="49"/>
+    <position num="32" from="60491" to="66597" x="77" y="627" width="195" height="39" repeat="true"/>
+    <position num="33" from="66577" to="72962" x="366" y="679" width="162" height="44"/>
+    <position num="34" from="72939" to="79138" x="76" y="681" width="184" height="42" repeat="true"/>
+    <position num="35" from="79118" to="85131" x="338" y="731" width="194" height="47"/>
+    <position num="36" from="85111" to="91984" x="84" y="731" width="207" height="47" repeat="true" replay="true"/>
+  </sound>
+</page>

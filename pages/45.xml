@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="45-bet, Qori’a, Takasur suralari" pname="45.jpg">
+  <sound name="066. Qoria.mp3">
+    <position num="0" from="0" to="7523" x="144" y="80" width="149" height="46" repeat="true"/>
+    <position num="1" from="10634" to="14488" x="443" y="129" width="93" height="49" repeat="true"/>
+    <position num="2" from="14477" to="18168" x="317" y="131" width="89" height="48" repeat="true"/>
+    <position num="3" from="18141" to="24967" x="112" y="132" width="166" height="46" repeat="true"/>
+    <position num="4" from="24932" to="35125" x="182" y="185" width="351" height="47" repeat="true"/>
+    <position num="5" from="35120" to="37976" x="70" y="187" width="75" height="46"/>
+    <position num="6" from="37980" to="44481" x="249" y="242" width="279" height="48" repeat="true"/>
+    <position num="7" from="46737" to="51706" x="69" y="242" width="141" height="44"/>
+    <position num="8" from="51742" to="54946" x="453" y="296" width="75" height="47" repeat="true"/>
+    <position num="9" from="54959" to="61414" x="188" y="295" width="217" height="47" repeat="true"/>
+    <position num="10" from="63002" to="66043" x="72" y="292" width="73" height="49"/>
+    <position num="11" from="66040" to="70382" x="391" y="349" width="137" height="45" repeat="true"/>
+    <position num="12" from="70419" to="76990" x="208" y="346" width="145" height="51" repeat="true"/>
+    <position num="13" from="77032" to="81234" x="71" y="347" width="98" height="48"/>
+    <position num="14" from="81232" to="83693" x="377" y="405" width="59" height="45" repeat="true"/>
+    <position num="15" from="83734" to="88076" x="229" y="399" width="107" height="49" repeat="true" replay="true"/>
+  </sound>
+  <sound name="067. Takasur.mp3">
+    <position num="16" from="1078" to="6743" x="144" y="451" width="149" height="46" repeat="true"/>
+    <position num="17" from="7979" to="12762" x="403" y="505" width="135" height="47" repeat="true"/>
+    <position num="18" from="12796" to="18717" x="208" y="502" width="152" height="53" repeat="true"/>
+    <position num="19" from="18691" to="21732" x="70" y="505" width="96" height="45"/>
+    <position num="20" from="21710" to="25030" x="464" y="562" width="64" height="44" repeat="true"/>
+    <position num="21" from="25017" to="33329" x="242" y="558" width="181" height="48" repeat="true"/>
+    <position num="22" from="33356" to="38441" x="69" y="557" width="131" height="47"/>
+    <position num="23" from="38460" to="42291" x="436" y="615" width="92" height="44" repeat="true"/>
+    <position num="24" from="42270" to="49839" x="221" y="613" width="166" height="43" repeat="true"/>
+    <position num="25" from="51256" to="55760" x="70" y="611" width="112" height="44"/>
+    <position num="26" from="55785" to="59964" x="418" y="663" width="110" height="49" repeat="true"/>
+    <position num="27" from="60961" to="71502" x="115" y="664" width="262" height="49" repeat="true" replay="true"/>
+  </sound>
+</page>

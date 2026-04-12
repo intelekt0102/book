@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="37-bet, kalimalar" pname="37.jpg">
+  <sound name="050. kalimalar 04.mp3">
+    <position num="0" from="23561" to="26904" x="443" y="80" width="88" height="46"/>
+    <position num="1" from="26927" to="34380" x="69" y="81" width="357" height="42"/>
+    <position num="2" from="34376" to="38787" x="328" y="126" width="202" height="47"/>
+    <position num="3" from="38774" to="44878" x="85" y="127" width="229" height="45" repeat="true" replay="true" back="36"/>
+  </sound>
+  <sound name="051. kalimalar 05.mp3">
+    <position num="4" from="0" to="3204" x="233" y="178" width="141" height="36"/>
+    <position num="5" from="3199" to="18826" x="68" y="216" width="461" height="42"/>
+    <position num="6" from="18835" to="20181" x="480" y="262" width="47" height="47"/>
+    <position num="7" from="20217" to="30549" x="91" y="267" width="369" height="39"/>
+    <position num="8" from="32653" to="41894" x="181" y="311" width="346" height="45"/>
+    <position num="9" from="44289" to="46541" x="69" y="315" width="84" height="43"/>
+    <position num="10" from="46543" to="58083" x="70" y="360" width="460" height="45"/>
+    <position num="11" from="58107" to="65607" x="302" y="408" width="230" height="40"/>
+    <position num="12" from="65597" to="72377" x="88" y="408" width="195" height="44" repeat="true" replay="true"/>
+  </sound>
+  <sound name="052. kalimalar 06.mp3">
+    <position num="13" from="738" to="3338" x="401" y="474" width="125" height="45"/>
+    <position num="14" from="5328" to="12804" x="71" y="471" width="299" height="48"/>
+    <position num="15" from="12812" to="19545" x="95" y="527" width="433" height="44" repeat="true" replay="true"/>
+  </sound>
+  <sound name="053. kalimalar 07.mp3">
+    <position num="16" from="0" to="3343" x="401" y="578" width="129" height="44"/>
+    <position num="17" from="5581" to="13800" x="68" y="581" width="306" height="41"/>
+    <position num="18" from="13788" to="23702" x="67" y="633" width="463" height="47"/>
+    <position num="19" from="23714" to="29356" x="174" y="689" width="263" height="47" repeat="true" replay="true"/>
+  </sound>
+</page>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="49-bet, Falaq, Nas suralari" pname="49.jpg">
+  <sound name="077. Ixlos.mp3">
+    <position num="0" from="19395" to="20904" x="428" y="84" width="100" height="43" repeat="true" back_repeat="48"/>
+    <position num="1" from="20913" to="25800" x="114" y="83" width="271" height="48" repeat="true" replay="true" back="48"/>
+  </sound>
+  <sound name="078. Falaq.mp3">
+    <position num="2" from="0" to="7082" x="145" y="137" width="144" height="42" repeat="true"/>
+    <position num="3" from="9226" to="14543" x="346" y="183" width="193" height="51" repeat="true"/>
+    <position num="4" from="14531" to="20057" x="167" y="187" width="138" height="48" repeat="true"/>
+    <position num="5" from="20067" to="23526" x="71" y="192" width="55" height="45"/>
+    <position num="6" from="23527" to="28124" x="356" y="242" width="172" height="44" repeat="true"/>
+    <position num="7" from="28140" to="35547" x="70" y="244" width="241" height="44"/>
+    <position num="8" from="35567" to="37772" x="429" y="295" width="65" height="39" repeat="true"/>
+    <position num="9" from="37782" to="46094" x="145" y="297" width="243" height="43" repeat="true" replay="true"/>
+  </sound>
+  <sound name="079. Nos.mp3">
+    <position num="10" from="0" to="6106" x="146" y="351" width="145" height="36" repeat="true"/>
+    <position num="11" from="7749" to="14436" x="304" y="400" width="234" height="45" repeat="true"/>
+    <position num="12" from="14454" to="19771" x="117" y="403" width="150" height="41" repeat="true"/>
+    <position num="13" from="19786" to="25498" x="404" y="456" width="132" height="43" repeat="true"/>
+    <position num="14" from="25502" to="35277" x="71" y="452" width="290" height="49" repeat="true"/>
+    <position num="15" from="35285" to="45919" x="115" y="507" width="378" height="47" repeat="true"/>
+    <position num="16" from="45892" to="54599" x="212" y="561" width="220" height="46" repeat="true" replay="true"/>
+  </sound>
+  <sound name="080. tamom.mp3">
+    <position num="17" from="0" to="28813" x="56" y="614" width="489" height="32"/>
+  </sound>
+</page>

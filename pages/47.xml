@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="47-bet, Quroysh, Ma’un, Kavsar suralari" pname="47.jpg">
+  <sound name="071. Quraysh.mp3">
+    <position num="0" from="0" to="6733" x="143" y="83" width="148" height="43" repeat="true"/>
+    <position num="1" from="8259" to="13762" x="391" y="136" width="145" height="46" repeat="true"/>
+    <position num="2" from="13750" to="23781" x="69" y="129" width="280" height="50" repeat="true"/>
+    <position num="3" from="23759" to="32234" x="269" y="181" width="226" height="50" repeat="true"/>
+    <position num="4" from="32213" to="38853" x="71" y="182" width="157" height="46"/>
+    <position num="5" from="38870" to="47949" x="197" y="234" width="238" height="51" repeat="true" replay="true"/>
+  </sound>
+  <sound name="072. Mauvn.mp3">
+    <position num="6" from="0" to="5712" x="146" y="296" width="145" height="37" repeat="true"/>
+    <position num="7" from="7214" to="14969" x="270" y="345" width="268" height="46" repeat="true"/>
+    <position num="8" from="14989" to="18982" x="73" y="345" width="156" height="44"/>
+    <position num="9" from="18970" to="22940" x="413" y="397" width="117" height="44" repeat="true"/>
+    <position num="10" from="22950" to="32121" x="114" y="395" width="259" height="46" repeat="true"/>
+    <position num="11" from="33213" to="37555" x="371" y="451" width="166" height="43" repeat="true"/>
+    <position num="12" from="37567" to="45879" x="68" y="447" width="265" height="45" repeat="true"/>
+    <position num="13" from="47083" to="54838" x="317" y="500" width="178" height="45" repeat="true"/>
+    <position num="14" from="54858" to="61986" x="111" y="498" width="166" height="47" repeat="true" replay="true"/>
+  </sound>
+  <sound name="073. Kavsar.mp3">
+    <position num="15" from="0" to="5967" x="145" y="557" width="145" height="40" repeat="true"/>
+    <position num="16" from="5967" to="15765" x="322" y="606" width="218" height="48" repeat="true"/>
+    <position num="17" from="15776" to="21859" x="115" y="611" width="169" height="44" repeat="true"/>
+    <position num="18" from="21862" to="29269" x="202" y="658" width="249" height="51" repeat="true" replay="true"/>
+  </sound>
+</page>

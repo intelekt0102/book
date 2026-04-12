@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="35-bet, harflar ismi va Muqattaotlar" pname="35.jpg">
+  <sound name="045. harflar nomi.mp3">
+    <position num="0" from="0" to="2321" x="166" y="76" width="269" height="38" repeat="true"/>
+    <position num="1" from="3101" to="4563" x="498" y="169" width="36" height="31"/>
+    <position num="2" from="4574" to="5781" x="447" y="172" width="28" height="27"/>
+    <position num="3" from="5776" to="7006" x="377" y="169" width="26" height="29"/>
+    <position num="4" from="7016" to="7898" x="300" y="169" width="27" height="31"/>
+    <position num="5" from="7908" to="8976" x="215" y="170" width="42" height="37"/>
+    <position num="6" from="8993" to="10014" x="147" y="169" width="31" height="31"/>
+    <position num="7" from="10001" to="11278" x="70" y="170" width="36" height="30" repeat="true"/>
+    <position num="8" from="11280" to="12487" x="503" y="241" width="34" height="33"/>
+    <position num="9" from="12482" to="13782" x="434" y="242" width="39" height="31"/>
+    <position num="10" from="13800" to="14984" x="379" y="244" width="25" height="32"/>
+    <position num="11" from="15002" to="16186" x="310" y="244" width="29" height="32"/>
+    <position num="12" from="16204" to="17156" x="237" y="249" width="39" height="27"/>
+    <position num="13" from="17173" to="18333" x="150" y="246" width="39" height="30"/>
+    <position num="14" from="18336" to="19659" x="74" y="244" width="36" height="32" repeat="true"/>
+    <position num="15" from="19654" to="20675" x="491" y="320" width="40" height="33"/>
+    <position num="16" from="20662" to="21962" x="419" y="319" width="33" height="30"/>
+    <position num="17" from="21980" to="23257" x="353" y="322" width="29" height="28"/>
+    <position num="18" from="23259" to="24443" x="273" y="323" width="36" height="32"/>
+    <position num="19" from="24461" to="25993" x="208" y="324" width="34" height="32"/>
+    <position num="20" from="26011" to="27241" x="145" y="319" width="31" height="31"/>
+    <position num="21" from="27252" to="28296" x="65" y="322" width="38" height="28" repeat="true"/>
+    <position num="22" from="28298" to="29760" x="492" y="399" width="40" height="31"/>
+    <position num="23" from="29772" to="30932" x="437" y="398" width="30" height="36"/>
+    <position num="24" from="30935" to="32119" x="372" y="404" width="35" height="32"/>
+    <position num="25" from="32136" to="33459" x="309" y="400" width="37" height="32"/>
+    <position num="26" from="33454" to="34847" x="248" y="400" width="33" height="33"/>
+    <position num="27" from="34850" to="36057" x="192" y="400" width="30" height="30"/>
+    <position num="28" from="36052" to="37584" x="122" y="398" width="56" height="32"/>
+    <position num="29" from="37602" to="38765" x="70" y="399" width="29" height="32" repeat="true" replay="true"/>
+  </sound>
+  <sound name="046. ayrim suralar boshi.mp3">
+    <position num="30" from="0" to="3575" x="212" y="453" width="178" height="40"/>
+    <position num="31" from="4393" to="11335" x="64" y="495" width="472" height="30" repeat="true"/>
+    <position num="32" from="11350" to="19616" x="449" y="576" width="82" height="36"/>
+    <position num="33" from="19649" to="31398" x="306" y="577" width="114" height="32"/>
+    <position num="34" from="33928" to="38873" x="196" y="573" width="69" height="38"/>
+    <position num="35" from="40884" to="48221" x="66" y="579" width="92" height="35" repeat="true"/>
+    <position num="36" from="52234" to="61614" x="404" y="649" width="133" height="36"/>
+    <position num="37" from="63951" to="66342" x="322" y="650" width="45" height="31"/>
+    <position num="38" from="68100" to="75065" x="182" y="650" width="86" height="39"/>
+    <position num="39" from="76765" to="80642" x="85" y="651" width="58" height="35" repeat="true"/>
+    <position num="40" from="82135" to="85943" x="482" y="736" width="53" height="31"/>
+    <position num="41" from="87383" to="90657" x="411" y="735" width="42" height="31"/>
+    <position num="42" from="92387" to="96775" x="336" y="735" width="52" height="29"/>
+    <position num="43" from="98733" to="111712" x="178" y="732" width="134" height="35"/>
+    <position num="44" from="113867" to="117140" x="127" y="731" width="39" height="31"/>
+    <position num="45" from="117894" to="121423" x="74" y="732" width="32" height="33" repeat="true" replay="true"/>
+  </sound>
+</page>

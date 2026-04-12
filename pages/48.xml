@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="48-bet, Kafirun, Nasr, Masad, Ixlos suralari" pname="48.jpg">
+  <sound name="074. Kafirun.mp3">
+    <position num="0" from="0" to="6849" x="72" y="718" width="95" height="44" repeat="true"/>
+    <position num="1" from="8431" to="16581" x="343" y="82" width="194" height="43" repeat="true"/>
+    <position num="2" from="16601" to="25145" x="118" y="81" width="179" height="38" repeat="true"/>
+    <position num="3" from="25162" to="35866" x="329" y="129" width="209" height="42" repeat="true"/>
+    <position num="4" from="35881" to="45494" x="115" y="127" width="173" height="45" repeat="true"/>
+    <position num="5" from="45489" to="57215" x="328" y="177" width="210" height="42" repeat="true"/>
+    <position num="6" from="57188" to="64548" x="113" y="181" width="170" height="47" repeat="true" replay="true"/>
+  </sound>
+  <sound name="075. Nasr.mp3">
+    <position num="7" from="0" to="6292" x="146" y="237" width="145" height="37" repeat="true"/>
+    <position num="8" from="7692" to="16283" x="275" y="288" width="259" height="47" repeat="true"/>
+    <position num="9" from="16278" to="20852" x="70" y="290" width="156" height="44"/>
+    <position num="10" from="20840" to="27898" x="276" y="338" width="254" height="47" repeat="true"/>
+    <position num="11" from="27906" to="33896" x="71" y="342" width="163" height="42"/>
+    <position num="12" from="33898" to="44555" x="186" y="389" width="292" height="47" repeat="true" replay="true"/>
+  </sound>
+  <sound name="076. Masad.mp3">
+    <position num="13" from="0" to="6455" x="146" y="450" width="145" height="41" repeat="true"/>
+    <position num="14" from="8276" to="17076" x="314" y="505" width="223" height="48" repeat="true"/>
+    <position num="15" from="17067" to="24984" x="68" y="506" width="208" height="43"/>
+    <position num="16" from="24984" to="26771" x="444" y="561" width="86" height="40" repeat="true"/>
+    <position num="17" from="26784" to="34423" x="195" y="560" width="206" height="46" repeat="true"/>
+    <position num="18" from="34444" to="38159" x="73" y="560" width="87" height="42"/>
+    <position num="19" from="38145" to="42162" x="381" y="613" width="149" height="43" repeat="true"/>
+    <position num="20" from="42155" to="51187" x="111" y="610" width="231" height="49" repeat="true" replay="true"/>
+  </sound>
+  <sound name="077. Ixlos.mp3">
+    <position num="21" from="0" to="6037" x="145" y="667" width="145" height="41" repeat="true"/>
+    <position num="22" from="6046" to="11525" x="376" y="715" width="161" height="48" repeat="true"/>
+    <position num="23" from="11516" to="15811" x="208" y="717" width="129" height="44" repeat="true"/>
+    <position num="24" from="15809" to="19245" x="72" y="718" width="95" height="44" repeat="true" next="49" half="1"/>
+  </sound>
+</page>

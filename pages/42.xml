@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="42-bet, Alaq, Qadr suralari" pname="42.jpg">
+  <sound name="061. Alaq.mp3">
+    <position num="0" from="8822" to="15695" x="333" y="87" width="193" height="49" repeat="true"/>
+    <position num="1" from="15733" to="22420" x="114" y="89" width="169" height="44" repeat="true"/>
+    <position num="2" from="22350" to="28503" x="396" y="139" width="139" height="47" repeat="true"/>
+    <position num="3" from="28526" to="34818" x="220" y="137" width="132" height="46" repeat="true"/>
+    <position num="4" from="34849" to="39864" x="72" y="142" width="107" height="41"/>
+    <position num="5" from="39848" to="42727" x="453" y="192" width="75" height="48" repeat="true"/>
+    <position num="6" from="42789" to="53307" x="229" y="190" width="182" height="48" repeat="true"/>
+    <position num="7" from="53376" to="59064" x="72" y="194" width="117" height="42" repeat="true"/>
+    <position num="8" from="59111" to="66587" x="341" y="242" width="148" height="47" repeat="true"/>
+    <position num="9" from="66610" to="73390" x="157" y="242" width="140" height="46" repeat="true"/>
+    <position num="10" from="73374" to="75603" x="65" y="245" width="48" height="39"/>
+    <position num="11" from="75580" to="78319" x="463" y="296" width="64" height="44" repeat="true"/>
+    <position num="12" from="78374" to="86315" x="227" y="294" width="191" height="43" repeat="true"/>
+    <position num="13" from="86314" to="92072" x="69" y="295" width="117" height="43" repeat="true"/>
+    <position num="14" from="92049" to="100199" x="312" y="345" width="176" height="44" repeat="true"/>
+    <position num="15" from="100136" to="108611" x="117" y="346" width="151" height="44" repeat="true"/>
+    <position num="16" from="108664" to="119902" x="289" y="400" width="248" height="42" repeat="true"/>
+    <position num="17" from="119840" to="127432" x="73" y="399" width="164" height="43" repeat="true"/>
+    <position num="18" from="127486" to="133383" x="376" y="451" width="111" height="44" repeat="true"/>
+    <position num="19" from="133368" to="138847" x="213" y="449" width="119" height="45" repeat="true"/>
+    <position num="20" from="138808" to="143080" x="72" y="451" width="95" height="40"/>
+    <position num="21" from="143073" to="146672" x="274" y="502" width="130" height="45" repeat="true" replay="true"/>
+  </sound>
+  <sound name="062. Qadr.mp3">
+    <position num="22" from="0" to="4736" x="145" y="562" width="146" height="43" repeat="true"/>
+    <position num="23" from="4734" to="14857" x="341" y="615" width="189" height="49" repeat="true"/>
+    <position num="24" from="14852" to="22653" x="111" y="617" width="181" height="44" repeat="true"/>
+    <position num="25" from="22677" to="30594" x="298" y="673" width="229" height="43" repeat="true"/>
+    <position num="26" from="30602" to="35687" x="72" y="671" width="182" height="45"/>
+    <position num="27" from="35686" to="43232" x="334" y="725" width="193" height="47" repeat="true"/>
+    <position num="28" from="43212" to="49016" x="111" y="725" width="185" height="46" repeat="true" replay="true"/>
+  </sound>
+</page>

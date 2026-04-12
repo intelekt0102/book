@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="44-bet, Zalzala, Adiyat suralari" pname="44.jpg">
+  <sound name="064. Zalzala.mp3">
+    <position num="0" from="0" to="5712" x="147" y="86" width="145" height="38" repeat="true"/>
+    <position num="1" from="7963" to="15741" x="326" y="137" width="201" height="43" repeat="true"/>
+    <position num="2" from="15751" to="23204" x="69" y="131" width="217" height="47" repeat="true"/>
+    <position num="3" from="23190" to="30782" x="337" y="186" width="156" height="44" repeat="true"/>
+    <position num="4" from="30803" to="38906" x="114" y="186" width="189" height="46" repeat="true"/>
+    <position num="5" from="38942" to="46999" x="362" y="240" width="171" height="47" repeat="true"/>
+    <position num="6" from="46992" to="55769" x="69" y="238" width="257" height="48"/>
+    <position num="7" from="55744" to="60225" x="396" y="295" width="128" height="46" repeat="true"/>
+    <position num="8" from="60207" to="70075" x="74" y="297" width="280" height="44"/>
+    <position num="9" from="70095" to="72277" x="482" y="352" width="46" height="39" repeat="true"/>
+    <position num="10" from="72283" to="83730" x="112" y="351" width="330" height="43" repeat="true" replay="true"/>
+  </sound>
+  <sound name="065. Adiya.mp3">
+    <position num="11" from="0" to="6640" x="146" y="407" width="143" height="38" repeat="true"/>
+    <position num="12" from="7775" to="13394" x="393" y="453" width="141" height="45" repeat="true"/>
+    <position num="13" from="13356" to="18835" x="195" y="453" width="153" height="45" repeat="true"/>
+    <position num="14" from="18845" to="22351" x="71" y="452" width="85" height="48"/>
+    <position num="15" from="22321" to="24410" x="481" y="507" width="46" height="40" repeat="true"/>
+    <position num="16" from="24425" to="29835" x="326" y="507" width="116" height="46" repeat="true"/>
+    <position num="17" from="29822" to="35743" x="146" y="508" width="139" height="46" repeat="true"/>
+    <position num="18" from="35768" to="38252" x="70" y="511" width="35" height="37"/>
+    <position num="19" from="38238" to="45529" x="349" y="561" width="178" height="45" repeat="true"/>
+    <position num="20" from="45557" to="54868" x="119" y="560" width="190" height="48" repeat="true"/>
+    <position num="21" from="54888" to="64384" x="314" y="613" width="215" height="44" repeat="true"/>
+    <position num="22" from="64402" to="70764" x="75" y="615" width="166" height="42"/>
+    <position num="23" from="70806" to="74405" x="430" y="664" width="99" height="47" repeat="true"/>
+    <position num="24" from="74373" to="80967" x="214" y="665" width="178" height="44" repeat="true"/>
+    <position num="25" from="80960" to="86370" x="71" y="666" width="104" height="49"/>
+    <position num="26" from="86357" to="91117" x="263" y="715" width="121" height="47" repeat="true" replay="true"/>
+  </sound>
+</page>

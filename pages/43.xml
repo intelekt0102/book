@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="43-bet, Bayyina surasi" pname="43.jpg">
+  <sound name="063. Bayyina.mp3">
+    <position num="0" from="0" to="6408" x="144" y="95" width="148" height="40" repeat="true"/>
+    <position num="1" from="7822" to="17481" x="70" y="145" width="467" height="47"/>
+    <position num="2" from="17515" to="24620" x="312" y="196" width="215" height="49" repeat="true"/>
+    <position num="3" from="25848" to="31861" x="71" y="198" width="186" height="46"/>
+    <position num="4" from="31800" to="34957" x="415" y="251" width="112" height="42" repeat="true"/>
+    <position num="5" from="36222" to="42026" x="215" y="248" width="155" height="47" repeat="true"/>
+    <position num="6" from="43364" to="46173" x="71" y="252" width="98" height="41"/>
+    <position num="7" from="46255" to="57725" x="120" y="300" width="404" height="45" repeat="true"/>
+    <position num="8" from="60200" to="74039" x="70" y="355" width="457" height="43"/>
+    <position num="9" from="73974" to="89902" x="113" y="405" width="414" height="44" repeat="true"/>
+    <position num="10" from="91150" to="102620" x="72" y="453" width="453" height="50"/>
+    <position num="11" from="102544" to="117126" x="118" y="508" width="407" height="45" repeat="true"/>
+    <position num="12" from="117169" to="128686" x="69" y="555" width="458" height="51"/>
+    <position num="13" from="128733" to="132494" x="443" y="609" width="84" height="51" repeat="true"/>
+    <position num="14" from="135705" to="145736" x="69" y="611" width="317" height="46"/>
+    <position num="15" from="145738" to="160412" x="71" y="663" width="457" height="45"/>
+    <position num="16" from="160363" to="169697" x="196" y="713" width="258" height="47" repeat="true" replay="true"/>
+  </sound>
+</page>

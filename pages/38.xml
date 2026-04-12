@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="38-bet, Fotiha, Baqara suralari" pname="38.jpg">
+  <sound name="054. Fotiha.mp3">
+    <position num="0" from="0" to="8591" x="166" y="79" width="244" height="46" repeat="true" replay="true"/>
+    <position num="1" from="9996" to="16845" x="147" y="132" width="146" height="40" repeat="true"/>
+    <position num="2" from="18743" to="28054" x="222" y="177" width="309" height="45" repeat="true"/>
+    <position num="3" from="28073" to="31439" x="70" y="181" width="101" height="47"/>
+    <position num="4" from="31405" to="34562" x="454" y="230" width="78" height="50" repeat="true"/>
+    <position num="5" from="34571" to="41908" x="237" y="233" width="171" height="52" repeat="true"/>
+    <position num="6" from="43818" to="47533" x="73" y="233" width="115" height="49"/>
+    <position num="7" from="47566" to="52558" x="356" y="292" width="174" height="48" repeat="true"/>
+    <position num="8" from="55314" to="62256" x="70" y="290" width="232" height="55" repeat="true"/>
+    <position num="9" from="63894" to="73274" x="73" y="348" width="410" height="49" repeat="true"/>
+    <position num="10" from="73307" to="82223" x="221" y="401" width="193" height="54" repeat="true" replay="true"/>
+  </sound>
+  <sound name="055. Baqara.mp3">
+    <position num="11" from="1511" to="7455" x="146" y="467" width="149" height="37" repeat="true"/>
+    <position num="12" from="10673" to="19148" x="492" y="515" width="37" height="41" repeat="true"/>
+    <position num="13" from="19175" to="33780" x="112" y="515" width="335" height="41" repeat="true"/>
+    <position num="14" from="35044" to="51367" x="70" y="562" width="459" height="52" repeat="true"/>
+    <position num="15" from="54219" to="69311" x="71" y="620" width="417" height="50"/>
+    <position num="16" from="71410" to="77841" x="356" y="675" width="168" height="46" repeat="true"/>
+    <position num="17" from="77834" to="86402" x="71" y="673" width="234" height="54"/>
+    <position num="18" from="86429" to="93278" x="208" y="732" width="223" height="46" repeat="true" replay="true"/>
+  </sound>
+</page>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="" pname="52.jpg">
+  <sound name="Qunut2.mp3">
+    <position num="0" from="272" to="3754" x="239" y="106" width="136" height="39" repeat="true"/>
+    <position num="1" from="6350" to="15150" x="246" y="175" width="282" height="42" repeat="true"/>
+    <position num="2" from="16965" to="20703" x="69" y="173" width="168" height="43"/>
+    <position num="3" from="20784" to="22170" x="485" y="242" width="44" height="43" repeat="true"/>
+    <position num="4" from="24313" to="29700" x="237" y="244" width="241" height="42" repeat="true"/>
+    <position num="5" from="31662" to="34216" x="107" y="244" width="125" height="41"/>
+    <position num="6" from="34202" to="36802" x="458" y="310" width="82" height="45" repeat="true"/>
+    <position num="7" from="39011" to="43446" x="254" y="311" width="179" height="43" repeat="true"/>
+    <position num="8" from="45543" to="49583" x="66" y="312" width="162" height="46"/>
+    <position num="9" from="49625" to="51412" x="473" y="382" width="59" height="42" repeat="true"/>
+    <position num="10" from="53436" to="59078" x="307" y="380" width="143" height="46" repeat="true"/>
+    <position num="11" from="60512" to="64900" x="95" y="381" width="205" height="47" repeat="true"/>
+    <position num="12" from="66567" to="70741" x="323" y="451" width="207" height="48" repeat="true"/>
+    <position num="13" from="72034" to="76770" x="74" y="452" width="242" height="46"/>
+    <position num="14" from="76751" to="77888" x="466" y="523" width="65" height="43" repeat="true"/>
+    <position num="15" from="80017" to="87540" x="190" y="523" width="269" height="44" repeat="true" replay="true"/>
+  </sound>
+</page>

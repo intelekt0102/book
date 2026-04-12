@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="34-bet, Idg’om, iqlob" pname="34.jpg">
+  <sound name="042. idg'om.mp3">
+    <position num="0" from="1426" to="2447" x="270" y="85" width="58" height="33" repeat="true"/>
+    <position num="1" from="3984" to="5934" x="433" y="127" width="88" height="32"/>
+    <position num="2" from="5951" to="9085" x="169" y="122" width="86" height="39" repeat="true"/>
+    <position num="3" from="9099" to="12419" x="439" y="172" width="84" height="39"/>
+    <position num="4" from="12395" to="16203" x="186" y="168" width="105" height="41" repeat="true"/>
+    <position num="5" from="16183" to="19457" x="441" y="220" width="81" height="39"/>
+    <position num="6" from="19478" to="22612" x="170" y="219" width="92" height="42" repeat="true"/>
+    <position num="7" from="22626" to="25992" x="433" y="268" width="90" height="33"/>
+    <position num="8" from="25971" to="30313" x="174" y="269" width="92" height="34" repeat="true"/>
+    <position num="9" from="30300" to="35385" x="434" y="310" width="89" height="38"/>
+    <position num="10" from="35366" to="39313" x="179" y="312" width="84" height="39" repeat="true"/>
+    <position num="11" from="39301" to="44362" x="390" y="358" width="135" height="39"/>
+    <position num="12" from="44368" to="48663" x="162" y="357" width="105" height="40" repeat="true" replay="true"/>
+  </sound>
+  <sound name="043. iqlob.mp3">
+    <position num="13" from="0" to="1416" x="262" y="408" width="77" height="38" repeat="true"/>
+    <position num="14" from="2014" to="5752" x="444" y="456" width="78" height="41"/>
+    <position num="15" from="5753" to="10373" x="202" y="451" width="121" height="45" repeat="true" replay="true"/>
+  </sound>
+  <sound name="044. Alloh lafzi.mp3">
+    <position num="16" from="0" to="5851" x="140" y="512" width="329" height="35" repeat="true"/>
+    <position num="17" from="5835" to="8273" x="441" y="558" width="89" height="50"/>
+    <position num="18" from="8272" to="11429" x="161" y="559" width="99" height="46" repeat="true"/>
+    <position num="19" from="11445" to="14765" x="438" y="615" width="93" height="46"/>
+    <position num="20" from="14788" to="18294" x="314" y="614" width="96" height="48"/>
+    <position num="21" from="18301" to="21900" x="203" y="612" width="84" height="48"/>
+    <position num="22" from="21927" to="25479" x="87" y="614" width="88" height="48" repeat="true"/>
+    <position num="23" from="25496" to="29466" x="433" y="666" width="96" height="49"/>
+    <position num="24" from="29462" to="33362" x="318" y="667" width="87" height="48"/>
+    <position num="25" from="33372" to="37249" x="196" y="667" width="91" height="49"/>
+    <position num="26" from="37225" to="41334" x="85" y="667" width="84" height="47" repeat="true"/>
+    <position num="27" from="41361" to="45052" x="436" y="718" width="94" height="47"/>
+    <position num="28" from="45044" to="48852" x="320" y="719" width="93" height="49"/>
+    <position num="29" from="48840" to="52740" x="201" y="721" width="100" height="46"/>
+    <position num="30" from="52750" to="56465" x="87" y="720" width="91" height="48" repeat="true" replay="true"/>
+  </sound>
+</page>
