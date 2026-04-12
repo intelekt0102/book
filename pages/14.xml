@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="14-bet, ج  خ harfi" pname="14.jpg">
+  <sound name="021. ja.mp3">
+    <position num="0" from="1608" to="2304" x="383" y="86" width="36" height="47"/>
+    <position num="1" from="2309" to="3377" x="280" y="93" width="43" height="49"/>
+    <position num="2" from="3464" to="4299" x="184" y="88" width="43" height="58" repeat="true"/>
+    <position num="3" from="5279" to="6741" x="490" y="162" width="43" height="56"/>
+    <position num="4" from="7094" to="8324" x="391" y="162" width="39" height="51"/>
+    <position num="5" from="8909" to="10209" x="285" y="161" width="44" height="55"/>
+    <position num="6" from="10476" to="11822" x="175" y="161" width="50" height="50"/>
+    <position num="7" from="12085" to="13478" x="71" y="161" width="41" height="52" repeat="true"/>
+    <position num="8" from="13900" to="15339" x="481" y="243" width="46" height="50"/>
+    <position num="9" from="15715" to="17154" x="399" y="242" width="55" height="52"/>
+    <position num="10" from="17571" to="19219" x="329" y="237" width="47" height="57"/>
+    <position num="11" from="19881" to="21320" x="258" y="240" width="49" height="52"/>
+    <position num="12" from="22191" to="23909" x="170" y="237" width="62" height="56"/>
+    <position num="13" from="24500" to="26334" x="67" y="240" width="78" height="53" repeat="true"/>
+    <position num="14" from="27182" to="29364" x="445" y="317" width="82" height="53"/>
+    <position num="15" from="29945" to="32429" x="323" y="318" width="92" height="51"/>
+    <position num="16" from="33616" to="35937" x="199" y="317" width="95" height="47"/>
+    <position num="17" from="36338" to="38938" x="67" y="314" width="100" height="53" repeat="true" replay="true"/>
+  </sound>
+  <sound name="022. xo.mp3">
+    <position num="18" from="1425" to="2377" x="384" y="392" width="37" height="48"/>
+    <position num="19" from="2479" to="3616" x="281" y="401" width="40" height="55"/>
+    <position num="20" from="3843" to="4887" x="180" y="393" width="38" height="62" repeat="true"/>
+    <position num="21" from="5578" to="7087" x="474" y="468" width="59" height="51"/>
+    <position num="22" from="7996" to="9621" x="412" y="471" width="40" height="52"/>
+    <position num="23" from="10042" to="11458" x="329" y="470" width="52" height="61"/>
+    <position num="24" from="12087" to="13735" x="255" y="468" width="47" height="57"/>
+    <position num="25" from="14505" to="15874" x="155" y="468" width="73" height="53"/>
+    <position num="26" from="16241" to="18655" x="69" y="471" width="65" height="46" repeat="true"/>
+    <position num="27" from="19340" to="21522" x="485" y="549" width="45" height="48"/>
+    <position num="28" from="22067" to="23947" x="410" y="550" width="51" height="54"/>
+    <position num="29" from="24485" to="26574" x="336" y="550" width="48" height="51"/>
+    <position num="30" from="27274" to="29456" x="247" y="548" width="58" height="50"/>
+    <position num="31" from="30064" to="32246" x="153" y="547" width="68" height="61"/>
+    <position num="32" from="33163" to="34788" x="73" y="550" width="54" height="52" repeat="true"/>
+    <position num="33" from="35953" to="37926" x="469" y="632" width="65" height="54"/>
+    <position num="34" from="38680" to="40700" x="330" y="625" width="67" height="61"/>
+    <position num="35" from="41098" to="42955" x="201" y="628" width="56" height="55"/>
+    <position num="36" from="43887" to="46023" x="67" y="625" width="62" height="61" repeat="true"/>
+    <position num="37" from="46987" to="49750" x="445" y="706" width="88" height="55"/>
+    <position num="38" from="50768" to="53275" x="326" y="709" width="84" height="48"/>
+    <position num="39" from="53868" to="56677" x="199" y="713" width="92" height="50"/>
+    <position num="40" from="57339" to="60195" x="72" y="711" width="89" height="52" repeat="true" replay="true"/>
+  </sound>
+</page>

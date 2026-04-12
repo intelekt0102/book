@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="13-bet, ص ط harfi" pname="13.jpg">
+  <sound name="019. so.mp3">
+    <position num="0" from="2617" to="3429" x="392" y="85" width="39" height="47"/>
+    <position num="1" from="3507" to="4644" x="283" y="90" width="46" height="51"/>
+    <position num="2" from="4659" to="5773" x="167" y="83" width="53" height="55" repeat="true"/>
+    <position num="3" from="6962" to="8169" x="483" y="151" width="51" height="56"/>
+    <position num="4" from="8742" to="10228" x="419" y="152" width="59" height="51"/>
+    <position num="5" from="10731" to="12402" x="354" y="155" width="52" height="51"/>
+    <position num="6" from="13034" to="14682" x="278" y="152" width="63" height="53"/>
+    <position num="7" from="15076" to="16771" x="214" y="152" width="50" height="52"/>
+    <position num="8" from="17118" to="18882" x="152" y="152" width="47" height="53"/>
+    <position num="9" from="19473" to="21121" x="66" y="151" width="70" height="52" repeat="true"/>
+    <position num="10" from="22091" to="23577" x="481" y="225" width="52" height="46"/>
+    <position num="11" from="24133" to="26524" x="361" y="222" width="60" height="48"/>
+    <position num="12" from="27064" to="30012" x="215" y="223" width="89" height="51"/>
+    <position num="13" from="30833" to="33108" x="69" y="221" width="91" height="53" repeat="true"/>
+    <position num="14" from="35178" to="38591" x="419" y="289" width="114" height="48"/>
+    <position num="15" from="39262" to="43766" x="261" y="288" width="150" height="49"/>
+    <position num="16" from="44444" to="50156" x="70" y="290" width="184" height="46" repeat="true" replay="true"/>
+  </sound>
+  <sound name="020. to.mp3">
+    <position num="17" from="868" to="1843" x="393" y="351" width="33" height="50"/>
+    <position num="18" from="2130" to="3151" x="282" y="362" width="40" height="47"/>
+    <position num="19" from="3472" to="4261" x="172" y="348" width="37" height="57" repeat="true"/>
+    <position num="20" from="5681" to="6656" x="489" y="422" width="42" height="54"/>
+    <position num="21" from="7418" to="8578" x="407" y="421" width="42" height="54"/>
+    <position num="22" from="9233" to="10208" x="317" y="422" width="47" height="47"/>
+    <position num="23" from="10969" to="12037" x="242" y="421" width="33" height="50"/>
+    <position num="24" from="12705" to="13773" x="159" y="423" width="39" height="45"/>
+    <position num="25" from="14520" to="16006" x="70" y="421" width="50" height="48" repeat="true"/>
+    <position num="26" from="17677" to="19093" x="480" y="492" width="51" height="48"/>
+    <position num="27" from="19886" to="21441" x="393" y="492" width="58" height="44"/>
+    <position num="28" from="22096" to="23976" x="307" y="490" width="57" height="50"/>
+    <position num="29" from="25174" to="27194" x="228" y="489" width="47" height="51"/>
+    <position num="30" from="27778" to="29635" x="148" y="490" width="49" height="52"/>
+    <position num="31" from="30856" to="32295" x="69" y="490" width="47" height="51" repeat="true"/>
+    <position num="32" from="33065" to="35178" x="460" y="560" width="69" height="50"/>
+    <position num="33" from="36222" to="38079" x="327" y="561" width="66" height="45"/>
+    <position num="34" from="39300" to="41413" x="195" y="558" width="64" height="56"/>
+    <position num="35" from="42377" to="44281" x="72" y="564" width="56" height="49" repeat="true"/>
+    <position num="36" from="45850" to="48195" x="461" y="640" width="69" height="47"/>
+    <position num="37" from="49322" to="51597" x="336" y="635" width="73" height="53"/>
+    <position num="38" from="52400" to="55511" x="204" y="637" width="86" height="53"/>
+    <position num="39" from="56424" to="58838" x="69" y="637" width="90" height="56" repeat="true"/>
+    <position num="40" from="61712" to="65705" x="401" y="712" width="131" height="48"/>
+    <position num="41" from="66999" to="71178" x="241" y="708" width="141" height="52"/>
+    <position num="42" from="72286" to="77765" x="69" y="710" width="163" height="53" repeat="true" replay="true"/>
+  </sound>
+</page>

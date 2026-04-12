@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="18-bet, ظ harfi" pname="18.jpg">
+  <sound name="029. zo.mp3">
+    <position num="0" from="500" to="1277" x="371" y="79" width="35" height="49"/>
+    <position num="1" from="1217" to="2703" x="285" y="86" width="33" height="50"/>
+    <position num="2" from="2705" to="3935" x="193" y="75" width="43" height="56" repeat="true"/>
+    <position num="3" from="3923" to="6244" x="490" y="150" width="39" height="50"/>
+    <position num="4" from="6223" to="8196" x="407" y="150" width="37" height="51"/>
+    <position num="5" from="8252" to="10179" x="326" y="151" width="36" height="41"/>
+    <position num="6" from="10146" to="12259" x="236" y="149" width="42" height="45"/>
+    <position num="7" from="12311" to="14191" x="151" y="148" width="36" height="46"/>
+    <position num="8" from="14205" to="16480" x="70" y="150" width="35" height="43" repeat="true"/>
+    <position num="9" from="16505" to="18710" x="487" y="207" width="42" height="49"/>
+    <position num="10" from="18669" to="20990" x="411" y="209" width="44" height="47"/>
+    <position num="11" from="20969" to="23546" x="325" y="207" width="51" height="48"/>
+    <position num="12" from="23540" to="26094" x="246" y="207" width="46" height="48"/>
+    <position num="13" from="26110" to="28849" x="151" y="209" width="60" height="41"/>
+    <position num="14" from="28816" to="31439" x="68" y="208" width="52" height="51" repeat="true"/>
+    <position num="15" from="31386" to="34218" x="486" y="268" width="45" height="48"/>
+    <position num="16" from="34227" to="36990" x="398" y="267" width="57" height="44"/>
+    <position num="17" from="37745" to="39858" x="309" y="267" width="59" height="46"/>
+    <position num="18" from="40721" to="42996" x="224" y="268" width="56" height="48"/>
+    <position num="19" from="43698" to="46112" x="145" y="266" width="47" height="50"/>
+    <position num="20" from="46133" to="49128" x="71" y="268" width="45" height="48" repeat="true"/>
+    <position num="21" from="49109" to="51988" x="478" y="327" width="52" height="48"/>
+    <position num="22" from="51950" to="55084" x="399" y="326" width="52" height="47"/>
+    <position num="23" from="55062" to="58266" x="315" y="327" width="59" height="49"/>
+    <position num="24" from="58309" to="61513" x="237" y="328" width="55" height="46"/>
+    <position num="25" from="63044" to="65551" x="153" y="326" width="60" height="51"/>
+    <position num="26" from="66426" to="68933" x="68" y="324" width="62" height="51" repeat="true"/>
+    <position num="27" from="68996" to="71782" x="477" y="384" width="52" height="49"/>
+    <position num="28" from="71838" to="74624" x="394" y="384" width="56" height="51"/>
+    <position num="29" from="74679" to="77256" x="321" y="383" width="42" height="50"/>
+    <position num="30" from="77249" to="80012" x="236" y="382" width="51" height="53"/>
+    <position num="31" from="79955" to="82811" x="156" y="386" width="49" height="50"/>
+    <position num="32" from="82796" to="85837" x="69" y="383" width="57" height="51" repeat="true"/>
+    <position num="33" from="87260" to="90301" x="460" y="445" width="70" height="49"/>
+    <position num="34" from="90237" to="93812" x="351" y="443" width="68" height="51"/>
+    <position num="35" from="93754" to="97608" x="210" y="443" width="87" height="54"/>
+    <position num="36" from="97542" to="101024" x="69" y="441" width="89" height="55" repeat="true"/>
+    <position num="37" from="101601" to="106570" x="421" y="513" width="109" height="48"/>
+    <position num="38" from="107418" to="112247" x="241" y="511" width="136" height="52"/>
+    <position num="39" from="112289" to="117768" x="70" y="512" width="130" height="49" repeat="true"/>
+    <position num="40" from="117835" to="122920" x="408" y="568" width="122" height="53"/>
+    <position num="41" from="122976" to="128455" x="242" y="568" width="136" height="51"/>
+    <position num="42" from="129200" to="134494" x="69" y="567" width="142" height="56" repeat="true" replay="true"/>
+  </sound>
+</page>

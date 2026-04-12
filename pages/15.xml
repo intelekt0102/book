@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="15-bet, ح غ harfi" pname="15.jpg">
+  <sound name="023. ha.mp3">
+    <position num="0" from="1703" to="2910" x="390" y="80" width="33" height="40"/>
+    <position num="1" from="3020" to="3995" x="281" y="87" width="37" height="40"/>
+    <position num="2" from="3872" to="5218" x="186" y="81" width="34" height="55" repeat="true"/>
+    <position num="3" from="5576" to="7201" x="487" y="150" width="45" height="52"/>
+    <position num="4" from="8210" to="9579" x="420" y="152" width="40" height="50"/>
+    <position num="5" from="9913" to="11445" x="352" y="152" width="39" height="53"/>
+    <position num="6" from="12082" to="13591" x="263" y="151" width="60" height="50"/>
+    <position num="7" from="13786" to="15248" x="165" y="150" width="70" height="46"/>
+    <position num="8" from="15955" to="17603" x="69" y="151" width="69" height="43" repeat="true"/>
+    <position num="9" from="18511" to="21111" x="458" y="223" width="72" height="47"/>
+    <position num="10" from="21531" to="23690" x="356" y="223" width="69" height="47"/>
+    <position num="11" from="24087" to="26130" x="267" y="222" width="57" height="45"/>
+    <position num="12" from="26643" to="28895" x="166" y="221" width="69" height="50"/>
+    <position num="13" from="29199" to="31497" x="72" y="221" width="64" height="50" repeat="true"/>
+    <position num="14" from="32220" to="34634" x="461" y="294" width="70" height="46"/>
+    <position num="15" from="35241" to="37539" x="330" y="291" width="74" height="51"/>
+    <position num="16" from="38261" to="40420" x="201" y="294" width="71" height="45"/>
+    <position num="17" from="40817" to="43138" x="72" y="291" width="73" height="50" repeat="true"/>
+    <position num="18" from="45077" to="47561" x="434" y="364" width="96" height="46"/>
+    <position num="19" from="48098" to="50954" x="308" y="363" width="98" height="46"/>
+    <position num="20" from="51506" to="54478" x="191" y="364" width="85" height="49"/>
+    <position num="21" from="54914" to="57700" x="70" y="362" width="88" height="52" repeat="true"/>
+    <position num="22" from="60955" to="65413" x="402" y="431" width="128" height="51"/>
+    <position num="23" from="66144" to="70137" x="245" y="433" width="122" height="52"/>
+    <position num="24" from="70947" to="75892" x="70" y="432" width="141" height="55" repeat="true" replay="true"/>
+  </sound>
+  <sound name="024. g'o.mp3">
+    <position num="25" from="1495" to="2679" x="384" y="499" width="32" height="48"/>
+    <position num="26" from="2764" to="3808" x="287" y="510" width="33" height="46"/>
+    <position num="27" from="4033" to="5031" x="181" y="500" width="46" height="63" repeat="true"/>
+    <position num="28" from="5801" to="7194" x="489" y="572" width="45" height="54"/>
+    <position num="29" from="7568" to="9263" x="406" y="572" width="47" height="47"/>
+    <position num="30" from="9563" to="11072" x="325" y="571" width="40" height="55"/>
+    <position num="31" from="11557" to="12996" x="240" y="570" width="44" height="52"/>
+    <position num="32" from="13551" to="15524" x="154" y="570" width="48" height="51"/>
+    <position num="33" from="16089" to="17876" x="72" y="568" width="44" height="58" repeat="true"/>
+    <position num="34" from="18355" to="20607" x="464" y="642" width="66" height="48"/>
+    <position num="35" from="21120" to="23163" x="373" y="641" width="51" height="58"/>
+    <position num="36" from="23930" to="25741" x="268" y="643" width="65" height="50"/>
+    <position num="37" from="26196" to="28216" x="164" y="642" width="62" height="50"/>
+    <position num="38" from="28734" to="30777" x="71" y="641" width="52" height="54" repeat="true"/>
+    <position num="39" from="31997" to="34226" x="461" y="716" width="71" height="46"/>
+    <position num="40" from="35034" to="37263" x="335" y="713" width="72" height="51"/>
+    <position num="41" from="38070" to="40554" x="201" y="714" width="81" height="49"/>
+    <position num="42" from="41334" to="43772" x="72" y="711" width="79" height="52" repeat="true" replay="true"/>
+  </sound>
+</page>
