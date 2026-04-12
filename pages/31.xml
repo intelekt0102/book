@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="" pname="31.jpg">
+  <sound name="038. yozilsa-o'qilmaydi.mp3">
+    <position num="0" from="50126" to="55768" x="120" y="67" width="359" height="33"/>
+    <position num="1" from="57106" to="59033" x="455" y="110" width="72" height="40"/>
+    <position num="2" from="59961" to="62375" x="351" y="110" width="90" height="40"/>
+    <position num="3" from="63134" to="65525" x="248" y="111" width="91" height="39"/>
+    <position num="4" from="65989" to="67939" x="151" y="110" width="82" height="41"/>
+    <position num="5" from="68527" to="70291" x="71" y="109" width="66" height="39"/>
+    <position num="6" from="71065" to="74083" x="412" y="169" width="115" height="42"/>
+    <position num="7" from="76458" to="80266" x="242" y="169" width="131" height="42"/>
+    <position num="8" from="80900" to="84522" x="71" y="168" width="128" height="41"/>
+    <position num="9" from="85342" to="88685" x="376" y="230" width="150" height="41"/>
+    <position num="10" from="90101" to="93421" x="202" y="229" width="144" height="39"/>
+    <position num="11" from="94225" to="97173" x="72" y="229" width="105" height="39"/>
+    <position num="12" from="98349" to="101251" x="404" y="289" width="122" height="41"/>
+    <position num="13" from="102474" to="105910" x="264" y="290" width="125" height="39"/>
+    <position num="14" from="106915" to="111930" x="69" y="288" width="181" height="41"/>
+    <position num="15" from="113578" to="119406" x="125" y="341" width="349" height="31"/>
+    <position num="16" from="120557" to="122275" x="474" y="378" width="56" height="41"/>
+    <position num="17" from="122778" to="124751" x="390" y="381" width="52" height="37"/>
+    <position num="18" from="125316" to="127289" x="278" y="380" width="76" height="38"/>
+    <position num="19" from="127854" to="129827" x="172" y="381" width="77" height="36"/>
+    <position num="20" from="130709" to="132496" x="72" y="379" width="67" height="39"/>
+    <position num="21" from="133248" to="135291" x="475" y="430" width="54" height="37"/>
+    <position num="22" from="136103" to="137960" x="377" y="429" width="63" height="38"/>
+    <position num="23" from="138958" to="140769" x="270" y="430" width="76" height="37"/>
+    <position num="24" from="141496" to="143469" x="170" y="429" width="70" height="37"/>
+    <position num="25" from="144352" to="146348" x="70" y="426" width="68" height="43"/>
+    <position num="26" from="147524" to="149381" x="453" y="479" width="76" height="40"/>
+    <position num="27" from="150379" to="152027" x="333" y="478" width="62" height="42"/>
+    <position num="28" from="152917" to="154821" x="203" y="479" width="72" height="41"/>
+    <position num="29" from="155456" to="157894" x="68" y="480" width="77" height="40"/>
+    <position num="30" from="160214" to="167644" x="59" y="534" width="439" height="26"/>
+    <position num="31" from="167511" to="170297" x="387" y="561" width="137" height="25"/>
+    <position num="32" from="172270" to="174313" x="440" y="593" width="86" height="41"/>
+    <position num="33" from="175125" to="177145" x="328" y="594" width="89" height="39"/>
+    <position num="34" from="177981" to="179977" x="199" y="591" width="105" height="41"/>
+    <position num="35" from="180836" to="182809" x="68" y="594" width="110" height="38"/>
+    <position num="36" from="183691" to="185664" x="427" y="640" width="99" height="39"/>
+    <position num="37" from="186864" to="188628" x="311" y="640" width="94" height="41"/>
+    <position num="38" from="189719" to="191553" x="195" y="641" width="99" height="39"/>
+    <position num="39" from="192575" to="194386" x="69" y="640" width="108" height="39"/>
+    <position num="40" from="195747" to="197627" x="426" y="692" width="101" height="40"/>
+    <position num="41" from="198920" to="200870" x="246" y="691" width="106" height="39"/>
+    <position num="42" from="202092" to="204042" x="72" y="692" width="103" height="37"/>
+    <position num="43" from="205265" to="207447" x="434" y="742" width="95" height="36"/>
+    <position num="44" from="208437" to="210410" x="251" y="741" width="105" height="36"/>
+    <position num="45" from="211927" to="213947" x="72" y="741" width="105" height="36"/>
+  </sound>
+</page>

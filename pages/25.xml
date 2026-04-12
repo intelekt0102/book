@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="25-bet, tashdidli harflar, tanvinli harflar" pname="25.jpg">
+  <sound name="032. tashdid.mp3">
+    <position num="0" from="246555" to="248203" x="478" y="88" width="53" height="56"/>
+    <position num="1" from="248326" to="250601" x="395" y="92" width="58" height="51"/>
+    <position num="2" from="250452" to="253099" x="311" y="92" width="59" height="53"/>
+    <position num="3" from="252932" to="255416" x="224" y="94" width="67" height="50"/>
+    <position num="4" from="255411" to="257779" x="145" y="92" width="61" height="50"/>
+    <position num="5" from="257891" to="259980" x="67" y="95" width="57" height="45" repeat="true"/>
+    <position num="6" from="260016" to="262523" x="473" y="149" width="56" height="48"/>
+    <position num="7" from="262496" to="265235" x="367" y="147" width="62" height="50"/>
+    <position num="8" from="265330" to="268766" x="272" y="149" width="48" height="46"/>
+    <position num="9" from="268873" to="270893" x="165" y="147" width="61" height="48"/>
+    <position num="10" from="270998" to="273180" x="70" y="147" width="50" height="49" repeat="true"/>
+    <position num="11" from="273124" to="276142" x="468" y="198" width="59" height="48"/>
+    <position num="12" from="276312" to="278355" x="379" y="201" width="66" height="41"/>
+    <position num="13" from="278437" to="280851" x="277" y="200" width="76" height="45"/>
+    <position num="14" from="280917" to="283355" x="180" y="202" width="68" height="40"/>
+    <position num="15" from="283397" to="285626" x="69" y="201" width="86" height="43" repeat="true"/>
+    <position num="16" from="286939" to="289144" x="465" y="268" width="67" height="41"/>
+    <position num="17" from="289065" to="291944" x="356" y="268" width="81" height="46"/>
+    <position num="18" from="291899" to="294569" x="262" y="269" width="66" height="42"/>
+    <position num="19" from="294733" to="297217" x="163" y="269" width="68" height="45"/>
+    <position num="20" from="297212" to="299557" x="69" y="269" width="69" height="40" repeat="true"/>
+    <position num="21" from="299692" to="302966" x="457" y="319" width="74" height="50"/>
+    <position num="22" from="302880" to="305457" x="367" y="324" width="65" height="43"/>
+    <position num="23" from="305360" to="307844" x="267" y="323" width="73" height="43"/>
+    <position num="24" from="307840" to="310417" x="164" y="323" width="77" height="43"/>
+    <position num="25" from="310319" to="312873" x="66" y="322" width="73" height="41" repeat="true"/>
+    <position num="26" from="312799" to="315678" x="464" y="375" width="67" height="46"/>
+    <position num="27" from="315633" to="318628" x="360" y="375" width="75" height="44"/>
+    <position num="28" from="318467" to="321694" x="260" y="373" width="71" height="44"/>
+    <position num="29" from="321655" to="324209" x="163" y="377" width="71" height="42"/>
+    <position num="30" from="324135" to="327594" x="66" y="377" width="66" height="41" repeat="true"/>
+    <position num="31" from="329449" to="331399" x="474" y="429" width="57" height="46"/>
+    <position num="32" from="331574" to="333849" x="368" y="431" width="61" height="44"/>
+    <position num="33" from="333700" to="336393" x="261" y="431" width="62" height="43"/>
+    <position num="34" from="336534" to="339157" x="160" y="427" width="57" height="45"/>
+    <position num="35" from="339013" to="341799" x="67" y="429" width="54" height="47" repeat="true"/>
+    <position num="36" from="341847" to="345422" x="468" y="482" width="65" height="50"/>
+    <position num="37" from="345390" to="348013" x="325" y="482" width="91" height="46"/>
+    <position num="38" from="347870" to="350818" x="188" y="481" width="87" height="52"/>
+    <position num="39" from="350704" to="353211" x="68" y="479" width="74" height="49" repeat="true" replay="true"/>
+  </sound>
+  <sound name="033. tanvin.mp3">
+    <position num="40" from="0" to="2113" x="236" y="541" width="132" height="46"/>
+    <position num="41" from="2098" to="11734" x="61" y="615" width="480" height="92" repeat="true"/>
+    <position num="42" from="11827" to="13150" x="436" y="715" width="91" height="47"/>
+    <position num="43" from="13163" to="14672" x="246" y="720" width="97" height="49"/>
+    <position num="44" from="14689" to="16198" x="66" y="718" width="91" height="46" repeat="true" next="26"/>
+  </sound>
+</page>

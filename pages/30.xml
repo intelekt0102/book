@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="30-bet, Alifli Yaa, Alifli Vav, yozilmasada o’qiladigan harflar" pname="30.jpg">
+  <sound name="037. yoz-o'qiladigan.mp3">
+    <position num="0" from="108484" to="110550" x="255" y="70" width="87" height="42"/>
+    <position num="1" from="110549" to="115959" x="138" y="111" width="327" height="31" repeat="true"/>
+    <position num="2" from="115992" to="117733" x="490" y="146" width="43" height="44"/>
+    <position num="3" from="117681" to="119167" x="401" y="147" width="53" height="43"/>
+    <position num="4" from="119183" to="120576" x="318" y="144" width="48" height="45"/>
+    <position num="5" from="120496" to="122098" x="237" y="147" width="45" height="43"/>
+    <position num="6" from="122186" to="124182" x="159" y="143" width="40" height="47"/>
+    <position num="7" from="124250" to="125968" x="67" y="145" width="54" height="45" repeat="true"/>
+    <position num="8" from="125939" to="127750" x="476" y="214" width="54" height="46"/>
+    <position num="9" from="127816" to="130045" x="377" y="214" width="64" height="52"/>
+    <position num="10" from="130069" to="131787" x="278" y="213" width="61" height="50"/>
+    <position num="11" from="131758" to="133778" x="172" y="216" width="69" height="46"/>
+    <position num="12" from="133822" to="135586" x="71" y="216" width="62" height="48" repeat="true"/>
+    <position num="13" from="135512" to="137508" x="463" y="289" width="70" height="47"/>
+    <position num="14" from="137576" to="139689" x="328" y="289" width="85" height="41"/>
+    <position num="15" from="139641" to="142288" x="204" y="286" width="67" height="45"/>
+    <position num="16" from="142268" to="144473" x="68" y="288" width="78" height="44" repeat="true" replay="true"/>
+    <position num="17" from="144521" to="149815" x="120" y="334" width="363" height="29" repeat="true"/>
+    <position num="18" from="149776" to="152539" x="463" y="366" width="68" height="41"/>
+    <position num="19" from="152591" to="155307" x="367" y="365" width="71" height="40"/>
+    <position num="20" from="155219" to="158167" x="276" y="365" width="62" height="40"/>
+    <position num="21" from="158222" to="160985" x="168" y="366" width="79" height="41"/>
+    <position num="22" from="161037" to="163660" x="67" y="365" width="74" height="41" repeat="true"/>
+    <position num="23" from="163665" to="166590" x="252" y="423" width="96" height="40"/>
+    <position num="24" from="166668" to="172147" x="152" y="461" width="297" height="29"/>
+    <position num="25" from="172111" to="175199" x="469" y="492" width="60" height="46"/>
+    <position num="26" from="175114" to="177644" x="390" y="491" width="55" height="48"/>
+    <position num="27" from="177554" to="179968" x="310" y="492" width="53" height="44"/>
+    <position num="28" from="179994" to="182269" x="224" y="492" width="56" height="46"/>
+    <position num="29" from="182246" to="184753" x="141" y="493" width="61" height="46"/>
+    <position num="30" from="184686" to="187309" x="68" y="495" width="54" height="43" repeat="true" replay="true"/>
+  </sound>
+  <sound name="038. yozilsa-o'qilmaydi.mp3">
+    <position num="31" from="0" to="3297" x="166" y="544" width="269" height="33"/>
+    <position num="32" from="3172" to="11972" x="60" y="575" width="485" height="33" repeat="true"/>
+    <position num="33" from="12055" to="13657" x="482" y="609" width="54" height="46"/>
+    <position num="34" from="13642" to="15615" x="388" y="610" width="55" height="45"/>
+    <position num="35" from="15545" to="17774" x="285" y="613" width="69" height="40"/>
+    <position num="36" from="17766" to="20552" x="183" y="611" width="59" height="44"/>
+    <position num="37" from="20621" to="23453" x="68" y="608" width="74" height="44" repeat="true" replay="true"/>
+    <position num="38" from="24746" to="31688" x="60" y="659" width="481" height="29"/>
+    <position num="39" from="31725" to="35649" x="304" y="690" width="236" height="23" repeat="true"/>
+    <position num="40" from="37119" to="39023" x="480" y="715" width="53" height="51"/>
+    <position num="41" from="39022" to="41343" x="387" y="717" width="53" height="50"/>
+    <position num="42" from="41243" to="43588" x="296" y="714" width="52" height="50"/>
+    <position num="43" from="43464" to="46064" x="179" y="718" width="78" height="50"/>
+    <position num="44" from="46002" to="48509" x="69" y="718" width="76" height="49" repeat="true" replay="true"/>
+  </sound>
+</page>
