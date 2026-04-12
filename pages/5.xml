@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="5-bet, Alifbo, ر harfi" pname="5.jpg">
+  <sound name="001. alifbo.mp3">
+    <position num="0" from="45895" to="46777" x="499" y="223" width="31" height="47"/>
+    <position num="1" from="48069" to="49555" x="431" y="235" width="46" height="37"/>
+    <position num="2" from="51520" to="52518" x="355" y="233" width="46" height="36"/>
+    <position num="3" from="54461" to="55668" x="283" y="230" width="40" height="38"/>
+    <position num="4" from="57273" to="58062" x="211" y="238" width="36" height="47"/>
+    <position num="5" from="59447" to="61583" x="140" y="240" width="36" height="44"/>
+    <position num="6" from="62387" to="63873" x="68" y="234" width="36" height="49" repeat="true"/>
+    <position num="7" from="65327" to="66302" x="498" y="300" width="22" height="32"/>
+    <position num="8" from="68268" to="69405" x="442" y="297" width="19" height="35"/>
+    <position num="9" from="70700" to="72193" x="383" y="309" width="23" height="30"/>
+    <position num="10" from="73126" to="75053" x="324" y="299" width="22" height="41"/>
+    <position num="11" from="76466" to="77946" x="242" y="306" width="45" height="37"/>
+    <position num="12" from="78879" to="80852" x="160" y="301" width="44" height="45"/>
+    <position num="13" from="81819" to="83839" x="68" y="304" width="52" height="41" repeat="true"/>
+    <position num="14" from="84632" to="86373" x="467" y="367" width="53" height="44"/>
+    <position num="15" from="88339" to="89290" x="403" y="359" width="31" height="39"/>
+    <position num="16" from="91152" to="92638" x="338" y="358" width="31" height="43"/>
+    <position num="17" from="93197" to="95170" x="268" y="367" width="39" height="52"/>
+    <position num="18" from="96010" to="97542" x="202" y="359" width="39" height="58"/>
+    <position num="19" from="99462" to="100994" x="131" y="362" width="40" height="37"/>
+    <position num="20" from="102402" to="103888" x="62" y="362" width="39" height="42" repeat="true"/>
+    <position num="21" from="105342" to="106665" x="488" y="424" width="34" height="42"/>
+    <position num="22" from="108922" to="110222" x="433" y="426" width="35" height="46"/>
+    <position num="23" from="111862" to="113046" x="386" y="439" width="30" height="45"/>
+    <position num="24" from="114675" to="116184" x="337" y="426" width="33" height="44"/>
+    <position num="25" from="117615" to="119495" x="285" y="437" width="32" height="38"/>
+    <position num="26" from="121195" to="122402" x="243" y="431" width="22" height="42"/>
+    <position num="27" from="124007" to="125585" x="130" y="431" width="37" height="49" repeat="true" replay="true"/>
+  </sound>
+  <sound name="002. harakat.mp3">
+    <position num="28" from="2773" to="3701" x="391" y="519" width="30" height="66"/>
+    <position num="29" from="3879" to="4947" x="289" y="533" width="30" height="61"/>
+    <position num="30" from="5139" to="6462" x="175" y="513" width="35" height="72" repeat="true" replay="true"/>
+  </sound>
+  <sound name="003. ro.mp3">
+    <position num="31" from="1677" to="3046" x="389" y="620" width="37" height="51"/>
+    <position num="32" from="3112" to="4389" x="278" y="633" width="51" height="52"/>
+    <position num="33" from="4388" to="5665" x="178" y="621" width="52" height="57" repeat="true"/>
+    <position num="34" from="7715" to="8829" x="385" y="689" width="44" height="68"/>
+    <position num="35" from="9465" to="10881" x="282" y="690" width="46" height="70"/>
+    <position num="36" from="11530" to="12667" x="181" y="685" width="48" height="72" repeat="true" replay="true"/>
+  </sound>
+</page>
