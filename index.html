@@ -43,10 +43,81 @@ button {
   background: rgba(255, 0, 0, 0);
 }
 
+/* ===== LOGIN ===== */
+#loginScreen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 360px;
+  background: white;
+  padding: 28px 22px;
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+  box-sizing: border-box;
+}
+
+.login-box h2 {
+  margin: 0 0 22px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 7px 0;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: 0;
+  border-radius: 7px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#loginError {
+  color: #c62828;
+  min-height: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+#protectedContent {
+  display: none;
+}
+
 </style>
 </head>
 
 <body>
+
+<!-- LOGIN OYNASI -->
+<div id="loginScreen">
+  <div class="login-box">
+    <h2>Muallimi soniy (audioli)</h2>
+
+    <input id="loginUsername" type="text" placeholder="Login" autocomplete="username">
+    <input id="loginPassword" type="password" placeholder="Parol" autocomplete="current-password">
+
+    <button onclick="checkLogin()">Kirish</button>
+    <div id="loginError"></div>
+  </div>
+</div>
+
+<!-- ASOSIY SAHIFA -->
+<div id="protectedContent">
   <div class="controls">
   <button onclick="prevPage()">⬅</button>
 
@@ -65,9 +136,37 @@ button {
 <div id="page" class="page-container"></div>
 
 <audio id="audio"></audio>
+</div>
 
 <script>
 
+// ===== LOGIN SOZLAMALARI =====
+// Bu yerda login va parolni o'zgartirishingiz mumkin.
+const LOGIN_USERNAME = "kiu_talaba";
+const LOGIN_PASSWORD = "12345";
+
+function checkLogin() {
+  const username = document.getElementById("loginUsername").value.trim();
+  const password = document.getElementById("loginPassword").value;
+  const error = document.getElementById("loginError");
+
+  if (username === LOGIN_USERNAME && password === LOGIN_PASSWORD) {
+    sessionStorage.setItem("kitob_logged_in", "1");
+    document.getElementById("loginScreen").style.display = "none";
+    document.getElementById("protectedContent").style.display = "block";
+    error.textContent = "";
+    loadPage(currentPage);
+  } else {
+    error.textContent = "Login yoki parol noto'g'ri!";
+  }
+}
+
+function showLoginOrApp() {
+  if (sessionStorage.getItem("kitob_logged_in") === "1") {
+    document.getElementById("loginScreen").style.display = "none";
+    document.getElementById("protectedContent").style.display = "block";
+  }
+}
 
 const DATA = {
 
@@ -17934,7 +18033,18 @@ function prevPage() {
 }
 
 // 🚀 start
-loadPage(currentPage);
+showLoginOrApp();
+
+// Login oynasida Enter bosilsa ham kirish
+document.getElementById("loginPassword").addEventListener("keypress", function(e) {
+  if (e.key === "Enter") {
+    checkLogin();
+  }
+});
+
+if (sessionStorage.getItem("kitob_logged_in") === "1") {
+  loadPage(currentPage);
+}
 // Enter bosilganda sahifa o‘tish
 document.getElementById("pageInput").addEventListener("keypress", function(e) {
   if (e.key === "Enter") {
