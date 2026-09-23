@@ -246,10 +246,10 @@ async function checkLogin() {
     const password = document.getElementById("loginPassword").value;
     const error = document.getElementById("loginError");
 
-    // Kiritilgan parolni SHA-256 hash qilamiz
+    
     const passwordHash = await hashPassword(password);
 
-    // Login va hashni solishtiramiz
+   
     const user = USERS.find(
         u => u.username === username &&
              u.passwordHash === passwordHash
