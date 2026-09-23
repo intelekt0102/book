@@ -211,72 +211,76 @@ button {
 
 // ===== LOGIN SOZLAMALARI =====
 // Bu yerda login va parolni o'zgartirishingiz mumkin.
+
+async function hashPassword(password) {
+
+    const data = new TextEncoder().encode(password);
+
+    const hashBuffer = await crypto.subtle.digest(
+        "SHA-256",
+        data
+    );
+
+    return Array.from(new Uint8Array(hashBuffer))
+        .map(b => b.toString(16).padStart(2, "0"))
+        .join("");
+}
 const USERS = [
-    { username: "kiu_talaba", password: "12345" },
-    { username: "Ramziddin", password: "6590" },
-    { username: "umar", password: "quran777" },
-    { username: "talaba1", password: "kitob2026" }
+    {
+        username: "kiu_talaba",
+        passwordHash: "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5"
+    },
+    {
+        username: "azizjon",
+        passwordHash: "8e9b669109df89620b94f2387dc53206a82ddc71d658f8f7a2b3a9b417370d3e"
+    },
+    {
+        username: "ramziddin",
+        passwordHash: "a7be8e1fe282a37cd666e0632b17d933fa13f21addf4798fc0455bc166e2488c"
+    }    
 ];
 
-
-function checkLogin() {
-
+async function checkLogin() {
 
     const username = document.getElementById("loginUsername").value.trim();
     const password = document.getElementById("loginPassword").value;
     const error = document.getElementById("loginError");
 
+    // Kiritilgan parolni SHA-256 hash qilamiz
+    const passwordHash = await hashPassword(password);
 
+    // Login va hashni solishtiramiz
     const user = USERS.find(
-        u => u.username === username && u.password === password
+        u => u.username === username &&
+             u.passwordHash === passwordHash
     );
-
 
     if (user) {
 
-
-        // Login muvaffaqiyatli bo'lganini saqlaymiz
         sessionStorage.setItem("kitob_logged_in", "1");
 
-
-        // Login oynasini yashiramiz
         document.getElementById("loginScreen").style.display = "none";
 
-
-        // Yuklanish oynasini ko'rsatamiz
         const loading = document.getElementById("loadingScreen");
         loading.style.display = "flex";
 
-
-        // 10 soniya kutamiz
         setTimeout(() => {
 
-
-            // Asosiy sahifani ko'rsatamiz
             document.getElementById("protectedContent").style.display = "block";
 
-
-            // Loading oynasini yashiramiz
             loading.style.display = "none";
 
-
-            // Sahifani yuklaymiz
             loadPage(currentPage);
 
-
-        }, 1000);
-
+        }, 1500);
 
     } else {
 
-
         error.textContent = "Login yoki parol noto‘g‘ri!";
-
 
     }
 }
-
-
+  
 function showLoginOrApp() {
   if (sessionStorage.getItem("kitob_logged_in") === "1") {
     document.getElementById("loginScreen").style.display = "none";
