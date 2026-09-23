@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>Kitob</title>
 
 <style>
@@ -24,19 +26,23 @@ button {
 
 .page-container {
   position: relative;
-  display: inline-block;
+  width: 100%;
+  max-width: 540px;
+  margin: 0 auto;
 }
 
 .page-container img {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
   display: block;
 }
 
 .clickable {
   position: absolute;
   cursor: pointer;
-  background: rgba(255, 0, 0, 0); /* debug uchun xohlasang rgba(255,0,0,0.2) qil */
+  background: rgba(255, 0, 0, 0);
 }
+
 </style>
 </head>
 
@@ -17833,9 +17839,10 @@ function loadPage(n) {
   const container = document.getElementById("page");
   container.innerHTML = "";
 
-  // 📄 rasm
+  // 📄 Rasm
   const img = document.createElement("img");
   img.src = `pages/${n}.jpg`;
+
   container.appendChild(img);
 
   document.getElementById("pageInput").value = n;
@@ -17847,19 +17854,30 @@ function loadPage(n) {
     return;
   }
 
-  sounds.forEach(item => {
-    const div = document.createElement("div");
-    div.className = "clickable";
+  // Rasm yuklangandan keyin clickable joylarni yaratamiz
+  img.onload = () => {
 
-    div.style.left = item.x + "px";
-    div.style.top = item.y + "px";
-    div.style.width = item.width + "px";
-    div.style.height = item.height + "px";
+    const imageWidth = img.naturalWidth;
+    const imageHeight = img.naturalHeight;
 
-    div.onclick = () => playAudio(item.audio, item.from, item.to);
+    sounds.forEach(item => {
 
-    container.appendChild(div);
-  });
+      const div = document.createElement("div");
+      div.className = "clickable";
+
+      // PX → %
+      div.style.left = (item.x / imageWidth * 100) + "%";
+      div.style.top = (item.y / imageHeight * 100) + "%";
+      div.style.width = (item.width / imageWidth * 100) + "%";
+      div.style.height = (item.height / imageHeight * 100) + "%";
+
+      div.onclick = () => {
+        playAudio(item.audio, item.from, item.to);
+      };
+
+      container.appendChild(div);
+    });
+  };
 }
 
 function playAudio(name, from, to) {
