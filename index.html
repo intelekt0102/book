@@ -7,6 +7,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>Kitob</title>
 
+
 <style>
 body {
   margin: 0;
@@ -15,14 +16,17 @@ body {
   background: #f5f5f5;
 }
 
+
 .controls {
   margin: 10px;
 }
+
 
 button {
   padding: 6px 8px;
   cursor: pointer;
 }
+
 
 .page-container {
   position: relative;
@@ -31,17 +35,20 @@ button {
   margin: 0 auto;
 }
 
+
 .page-container img {
   width: 100%;
   height: auto;
   display: block;
 }
 
+
 .clickable {
   position: absolute;
   cursor: pointer;
   background: rgba(255, 0, 0, 0);
 }
+
 
 /* ===== LOGIN ===== */
 #loginScreen {
@@ -53,6 +60,7 @@ button {
   padding: 20px;
 }
 
+
 .login-box {
   width: 100%;
   max-width: 360px;
@@ -63,9 +71,11 @@ button {
   box-sizing: border-box;
 }
 
+
 .login-box h2 {
   margin: 0 0 22px;
 }
+
 
 .login-box input {
   width: 100%;
@@ -77,6 +87,7 @@ button {
   font-size: 16px;
 }
 
+
 .login-box button {
   width: 100%;
   padding: 12px;
@@ -87,6 +98,7 @@ button {
   cursor: pointer;
 }
 
+
 #loginError {
   color: #c62828;
   min-height: 20px;
@@ -94,32 +106,84 @@ button {
   font-size: 14px;
 }
 
+
 #protectedContent {
   display: none;
 }
 
+
+/* ===== LOADING OYNASI ===== */
+#loadingScreen {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: #f5f5f5;
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.loader {
+  width: 45px;
+  height: 45px;
+  border: 4px solid #ddd;
+  border-top: 4px solid #1a3c34;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-bottom: 18px;
+}
+
+
+#loadingText {
+  font-size: 16px;
+  color: #333;
+}
+
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
 </style>
 </head>
 
+
 <body>
+
 
 <!-- LOGIN OYNASI -->
 <div id="loginScreen">
   <div class="login-box">
     <h2>Muallimi soniy (audioli)</h2>
 
+
     <input id="loginUsername" type="text" placeholder="Login" autocomplete="username">
     <input id="loginPassword" type="password" placeholder="Parol" autocomplete="current-password">
+
 
     <button onclick="checkLogin()">Kirish</button>
     <div id="loginError"></div>
   </div>
 </div>
 
+
+<!-- YUKLANISH OYNASI -->
+<div id="loadingScreen">
+  <div class="loader"></div>
+  <div id="loadingText">Kirilmoqda...</div>
+</div>
+
+
 <!-- ASOSIY SAHIFA -->
 <div id="protectedContent">
   <div class="controls">
   <button onclick="prevPage()">⬅</button>
+
 
   <input 
   id="pageInput" 
@@ -129,37 +193,89 @@ button {
   style="width: 30px; padding:6px; text-align:center;"
 >
 
+
   <button onclick="nextPage()">➡</button>
 </div>
 </div>
 
+
 <div id="page" class="page-container"></div>
+
 
 <audio id="audio"></audio>
 </div>
 
+
 <script>
+
 
 // ===== LOGIN SOZLAMALARI =====
 // Bu yerda login va parolni o'zgartirishingiz mumkin.
-const LOGIN_USERNAME = "kiu_talaba";
-const LOGIN_PASSWORD = "12345";
+const USERS = [
+    { username: "kiu_talaba", password: "12345" },
+    { username: "Ramziddin", password: "6590" },
+    { username: "umar", password: "quran777" },
+    { username: "talaba1", password: "kitob2026" }
+];
+
 
 function checkLogin() {
-  const username = document.getElementById("loginUsername").value.trim();
-  const password = document.getElementById("loginPassword").value;
-  const error = document.getElementById("loginError");
 
-  if (username === LOGIN_USERNAME && password === LOGIN_PASSWORD) {
-    sessionStorage.setItem("kitob_logged_in", "1");
-    document.getElementById("loginScreen").style.display = "none";
-    document.getElementById("protectedContent").style.display = "block";
-    error.textContent = "";
-    loadPage(currentPage);
-  } else {
-    error.textContent = "Login yoki parol noto'g'ri!";
-  }
+
+    const username = document.getElementById("loginUsername").value.trim();
+    const password = document.getElementById("loginPassword").value;
+    const error = document.getElementById("loginError");
+
+
+    const user = USERS.find(
+        u => u.username === username && u.password === password
+    );
+
+
+    if (user) {
+
+
+        // Login muvaffaqiyatli bo'lganini saqlaymiz
+        sessionStorage.setItem("kitob_logged_in", "1");
+
+
+        // Login oynasini yashiramiz
+        document.getElementById("loginScreen").style.display = "none";
+
+
+        // Yuklanish oynasini ko'rsatamiz
+        const loading = document.getElementById("loadingScreen");
+        loading.style.display = "flex";
+
+
+        // 10 soniya kutamiz
+        setTimeout(() => {
+
+
+            // Asosiy sahifani ko'rsatamiz
+            document.getElementById("protectedContent").style.display = "block";
+
+
+            // Loading oynasini yashiramiz
+            loading.style.display = "none";
+
+
+            // Sahifani yuklaymiz
+            loadPage(currentPage);
+
+
+        }, 1000);
+
+
+    } else {
+
+
+        error.textContent = "Login yoki parol noto‘g‘ri!";
+
+
+    }
 }
+
 
 function showLoginOrApp() {
   if (sessionStorage.getItem("kitob_logged_in") === "1") {
@@ -168,8 +284,8 @@ function showLoginOrApp() {
   }
 }
 
-const DATA = {
 
+const DATA = {
   
   "33": [
     {
@@ -17930,39 +18046,52 @@ const DATA = {
 const MAX_PAGE = 52;
 const MIN_PAGE = 1;
 
+
 /////////////////////////////////////////////////////
 
+
 let currentPage = 1;
+
 
 function loadPage(n) {
   const container = document.getElementById("page");
   container.innerHTML = "";
 
+
   // 📄 Rasm
   const img = document.createElement("img");
   img.src = `pages/${n}.jpg`;
 
+
   container.appendChild(img);
+
 
   document.getElementById("pageInput").value = n;
 
+
   const sounds = DATA[n];
+
 
   if (!sounds || sounds.length === 0) {
     console.log("⚠️ Data yo‘q:", n);
     return;
   }
 
+
   // Rasm yuklangandan keyin clickable joylarni yaratamiz
   img.onload = () => {
+
 
     const imageWidth = img.naturalWidth;
     const imageHeight = img.naturalHeight;
 
+
     sounds.forEach(item => {
+
 
       const div = document.createElement("div");
       div.className = "clickable";
+
 
       // PX → %
       div.style.left = (item.x / imageWidth * 100) + "%";
@@ -17970,23 +18099,29 @@ function loadPage(n) {
       div.style.width = (item.width / imageWidth * 100) + "%";
       div.style.height = (item.height / imageHeight * 100) + "%";
 
+
       div.onclick = () => {
         playAudio(item.audio, item.from, item.to);
       };
+
 
       container.appendChild(div);
     });
   };
 }
 
+
 function playAudio(name, from, to) {
   const audio = document.getElementById("audio");
 
+
   audio.src = `audios/${name}`;
+
 
   audio.onloadedmetadata = () => {
     audio.currentTime = from;
     audio.play();
+
 
     const stop = setInterval(() => {
       if (audio.currentTime >= to) {
@@ -17996,27 +18131,33 @@ function playAudio(name, from, to) {
     }, 100);
   };
 
+
   audio.onerror = () => {
     console.log("❌ Audio topilmadi:", name);
   };
 }
 
+
 function goToPage() {
   const input = document.getElementById("pageInput");
   let page = parseInt(input.value);
+
 
   if (isNaN(page)) {
     alert("Bunday sahifa mavjud emas!");
     return;
   }
 
+
   // 🔥 LIMIT qo‘yildi
   if (page < MIN_PAGE) page = MIN_PAGE;
   if (page > MAX_PAGE) page = MAX_PAGE;
 
+
   currentPage = page;
   loadPage(currentPage);
 }
+
 
 function nextPage() {
   if (currentPage < MAX_PAGE) {
@@ -18025,6 +18166,7 @@ function nextPage() {
   }
 }
 
+
 function prevPage() {
   if (currentPage > MIN_PAGE) {
     currentPage--;
@@ -18032,8 +18174,10 @@ function prevPage() {
   }
 }
 
+
 // 🚀 start
 showLoginOrApp();
+
 
 // Login oynasida Enter bosilsa ham kirish
 document.getElementById("loginPassword").addEventListener("keypress", function(e) {
@@ -18041,6 +18185,7 @@ document.getElementById("loginPassword").addEventListener("keypress", function(e
     checkLogin();
   }
 });
+
 
 if (sessionStorage.getItem("kitob_logged_in") === "1") {
   loadPage(currentPage);
@@ -18050,9 +18195,11 @@ document.getElementById("pageInput").addEventListener("keypress", function(e) {
   if (e.key === "Enter") {
     let page = parseInt(this.value);
 
+
     if (!isNaN(page)) {
       if (page < MIN_PAGE) page = MIN_PAGE;
       if (page > MAX_PAGE) page = MAX_PAGE;
+
 
       currentPage = page;
       loadPage(currentPage);
@@ -18060,17 +18207,23 @@ document.getElementById("pageInput").addEventListener("keypress", function(e) {
   }
 });
 
+
 document.addEventListener("keydown", function(e) {
   if (e.key === "ArrowRight") {
     nextPage();
   }
+
 
   if (e.key === "ArrowLeft") {
     prevPage();
   }
 });
 
+
 </script>
+
 
 </body>
 </html>
+
+  
